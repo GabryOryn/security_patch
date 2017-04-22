@@ -123,8 +123,6 @@ patch -d external/libavc			-p1 -s -N --no-backup-if-mismatch < $SECURITY_MAR17/e
 patch -d external/libavc			-p1 -s -N --no-backup-if-mismatch < $SECURITY_MAR17/external-libavc13.patch
 patch -d external/libhevc			-p1 -s -N --no-backup-if-mismatch < $SECURITY_MAR17/external-libhevc0.patch
 patch -d external/libnfc-nci			-p1 -s -N --no-backup-if-mismatch < $SECURITY_MAR17/external-libnfc-nci0.patch
-patch -d frameworks/av				-p1 -s -N --no-backup-if-mismatch < $SECURITY_MAR17/frameworks-av0.patch
-patch -d frameworks/av				-p1 -s -N --no-backup-if-mismatch < $SECURITY_MAR17/frameworks-av1.patch
 patch -d frameworks/av				-p1 -s -N --no-backup-if-mismatch < $SECURITY_MAR17/frameworks-av2.patch
 patch -d frameworks/av				-p1 -s -N --no-backup-if-mismatch < $SECURITY_MAR17/frameworks-av3.patch
 patch -d frameworks/base			-p1 -s -N --no-backup-if-mismatch < $SECURITY_MAR17/frameworks-base0.patch
